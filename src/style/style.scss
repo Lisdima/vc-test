@@ -6,6 +6,9 @@ html {
     font-size: 1vw;
   }
 }
+::-webkit-scrollbar {
+  width: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -30,6 +33,9 @@ body {
 }
 .my-container {
   padding: 0 2.65rem;
+  @media(max-width: 750px) {
+    padding: 0 0.65rem;
+  }
 }
 .page-title {
   margin-top: 0.26rem;

@@ -119,6 +119,9 @@ export default {
   .group:last-child {
     position: absolute;
     bottom: 0;
+    @media (max-height: 500px) {
+      position: relative;
+    }
   }
   .group-title {
     font-size: 0.8333rem;
