@@ -1,0 +1,45 @@
+{
+  "title": "Списки данных",
+  "namePage": "Управление пользователями",
+  "blocks": [
+    {
+      "type": "table",
+      "name": "Список пользователей",
+      "headers": [
+        {
+          "text": "ID",
+          "align": "start",
+          "sortable": false,
+          "value": "id"
+        },
+        { "text": "Имя", "sortable": false, "value": "name" },
+        { "text": "Email", "sortable": false, "value": "email" },
+        { "text": "Статус", "sortable": false, "value": "status" },
+        { "text": "Действия", "sortable": false, "value": "action" }
+      ],
+      "users": [
+        {
+          "id": "56723",
+          "name": "Alex Stone",
+          "email": "alexstone.greatsoul@gmail.com",
+          "status": "Активен"
+        },
+        {
+          "id": "56723",
+          "name": "Alex Stone",
+          "email": "alexstone.greatsoul@gmail.com",
+          "status": "Активен"
+        }
+      ],
+      "actionsWithUsers": [
+        { "text": "Удалить", "id": 1 },
+        { "text": "Редактировать", "id": 2 },
+        { "text": "Забанить", "id": 3 }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Добавить пользователя"
+    }
+  ]
+}

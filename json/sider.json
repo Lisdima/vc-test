@@ -1,0 +1,86 @@
+{
+  "title": "KMTT admin",
+  "blocks": [
+    {
+      "type": "button",
+      "data": { "path": "/", "text": "KMTT" }
+    },
+    {
+      "type": "drop-down menu",
+      "data": [
+        { "title": "Основные настройки", "id": 1 },
+        { "title": "Настроить меню", "id": 2 },
+        { "title": "Сообщить о проблеме", "id": 3 }
+      ]
+    },
+    {
+      "type": "list",
+      "data": [
+        {
+          "title": "СТАТИСТИКА",
+          "id": "1",
+          "children": [
+            {
+              "title": "Публикации",
+              "path": "/publications",
+              "id": "1-1"
+            },
+            {
+              "title": "Мессенджер",
+              "path": "/messenger",
+              "id": "1-2"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "id": "2",
+          "children": [
+            {
+              "title": "Подписка на еженедельную рассылку",
+              "path": "/subscription",
+              "id": "2-1"
+            }
+          ]
+        },
+        {
+          "title": "СПИСКИ ДАННЫХ",
+          "id": "3",
+          "children": [
+            {
+              "title": "Доступные города",
+              "path": "/cities",
+              "id": "3-1"
+            },
+            {
+              "title": "Заблокированные пользователи",
+              "path": "/blocked",
+              "id": "3-2"
+            },
+            {
+              "title": "Черный список ссылок",
+              "path": "/black-list",
+              "id": "3-3"
+            },
+            {
+              "title": "Управление пользователями",
+              "path": "/control-users",
+              "id": "3-4"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "id": "4",
+          "children": [
+            {
+              "title": "Библиотека компонентов",
+              "path": "/components",
+              "id": "4-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
